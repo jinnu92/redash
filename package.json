@@ -20,7 +20,9 @@
     "test": "TZ=Africa/Khartoum jest",
     "test:watch": "jest --watch",
     "cypress:install": "npm install --no-save cypress@~3.6.1 @percy/cypress@^2.2.0 atob@2.1.2",
-    "cypress": "node client/cypress/cypress.js"
+    "cypress": "node client/cypress/cypress.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -80,7 +82,8 @@
     "tinycolor2": "^1.4.1",
     "universal-router": "^8.3.0",
     "use-debounce": "^3.1.0",
-    "use-media": "^1.4.0"
+    "use-media": "^1.4.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -167,5 +170,6 @@
     "and_ff >= 64",
     "and_uc >= 11.8",
     "samsung >= 6.2"
-  ]
+  ],
+  "snyk": true
 }
