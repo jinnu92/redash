@@ -1,5 +1,5 @@
 Flask==1.1.1
-Jinja2==2.10.3
+Jinja2==2.11.3
 itsdangerous==1.1.0
 click==6.7
 MarkupSafe==1.1.1
@@ -38,7 +38,7 @@ rq==1.1.0
 rq-scheduler==0.9.1
 jsonschema==3.1.1
 RestrictedPython==5.0
-pysaml2==4.8.0
+pysaml2==6.5.0
 pycrypto==2.6.1
 funcy==1.13
 sentry-sdk>=0.12.2,<0.13.0
@@ -47,7 +47,7 @@ xlsxwriter==1.2.2
 pystache==0.5.4
 parsedatetime==2.4
 PyJWT==1.7.1
-cryptography==2.8
+cryptography==3.2
 simplejson==3.16.0
 ua-parser==0.8.0
 user-agents==2.0
@@ -64,3 +64,4 @@ werkzeug==0.16.1
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
