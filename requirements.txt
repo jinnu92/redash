@@ -41,13 +41,13 @@ RestrictedPython==5.0
 pysaml2==4.8.0
 pycrypto==2.6.1
 funcy==1.13
-sentry-sdk>=0.12.2,<0.13.0
+sentry-sdk>=1.4.1,<0.13.0
 semver==2.8.1
 xlsxwriter==1.2.2
 pystache==0.5.4
 parsedatetime==2.4
 PyJWT==1.7.1
-cryptography==2.8
+cryptography==41.0.3
 simplejson==3.16.0
 ua-parser==0.8.0
 user-agents==2.0
